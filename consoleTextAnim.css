@@ -71,19 +71,25 @@ form {
   text-align: center;
   font-size: 1rem;
   -webkit-transition: 0.66s;
-  transition: 0.66s;
+  transition: 0.87s;
 }
 
+/*FOOTER*/
+.hideaway {
+  display: flex;
+  justify-content: center;
+  -webkit-transform: translateY(10vw);
+          transform: translateY(10vw);
+}
 #typer {
   padding: .2rem;
   font-size: inherit;
   width: 30rem;
   color: #806e38;
 }
-
 input[type="submit"] {
   font-size: 1.1rem;
-  display: inline-block;
+ /* display: inline-block;*/
   border: dotted;
   color: #806e38;
   border-radius: 9px;
@@ -92,12 +98,7 @@ input[type="submit"] {
   text-align: center;
 }
 #btn:hover {
-  color: #a8914a;
+  color: #d1ba73;
   /*font-weight: var(--bold);*/
-}
-
-.hideaway {
-  -webkit-transform: translateY(10vw);
-          transform: translateY(10vw);
 }
 /*# sourceMappingURL=consoleTextAnim.css.map */
