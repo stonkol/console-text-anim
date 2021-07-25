@@ -82,13 +82,15 @@ form {
           transform: translateY(10vw);
 }
 #typer {
-  padding: .2rem;
+  padding: .7rem;
   font-size: inherit;
-  width: 30rem;
+  min-width: 29rem;
   color: #806e38;
+  border-color: hsla(50, 47%, 34%, 0.3);
+  flex-grow: 1;
 }
 input[type="submit"] {
-  font-size: 1.1rem;
+  font-size: 1.3em;
  /* display: inline-block;*/
   border: dotted;
   color: #806e38;
@@ -99,6 +101,6 @@ input[type="submit"] {
 }
 #btn:hover {
   color: #d1ba73;
-  /*font-weight: var(--bold);*/
+  /*font-weight: bold;*/
 }
 /*# sourceMappingURL=consoleTextAnim.css.map */
